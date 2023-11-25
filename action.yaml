@@ -35,7 +35,8 @@ runs:
            ServicePrincipalID = "${{ inputs.serviceprincipalid }}"
            TenantID = "${{ inputs.tenantid }}"
           }
-          .\APIDrivenProvisioningEntraID.ps1 @parameters
+          .\APIDrivenProvisioningPowershell.ps1 @parameters
+          
 
 
         
