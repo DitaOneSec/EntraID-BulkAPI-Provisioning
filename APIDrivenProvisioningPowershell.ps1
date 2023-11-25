@@ -3,7 +3,13 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$APIKey,
     [Parameter(Mandatory=$true)]
-    [string]$ClientSecret
+    [string]$ClientSecret,
+    [Parameter(Mandatory=$true)]
+    [string]$ServicePrincipalId,
+    [Parameter(Mandatory=$true)]
+    [string]$TenantId
+    
+
 )
 
 function Remove-Diacritics {
@@ -20,7 +26,7 @@ function Remove-Diacritics {
 <#
 $APIKey = Get-Secret -Name BambooAPIKey -AsPlainText
 $ClientSecret = Get-Secret -Name 'APIClientSecret'
-.\APIDrivenProvisioningPowershell.ps1 -APIKey $APIKey -ClientSecret $ClientSecret
+.\APIDrivenProvisioningPowershell.ps1 -APIKey $APIKey -ClientSecret $ClientSecret -ServicePrincipalId $ServicePrincipalId -TenantId $TenantId
 
 #>
 $Uri = 'https://api.bamboohr.com/api/gateway.php/mimnbeyond/v1/reports/custom?format=JSON&onlyCurrent=false'
@@ -113,8 +119,8 @@ $ClientSecretCredential = New-Object System.Management.Automation.PSCredential (
 $csv2scimParamsSendAPI = @{
     Path = '.\EmployeeList.csv'
     AttributeMapping = Import-PowerShellDataFile '.\AttributeMapping.psd1'
-    ServicePrincipalId = 'e49999e2-05b0-4f63-a518-c9a04ec16589'
-    TenantId = '58264fae-2f34-4dc4-9500-c860b7d7aec6'
+    ServicePrincipalId = $ServicePrincipalId
+    TenantId = $TenantId
     ClientSecretCredential = $ClientSecretCredential
     
 }
