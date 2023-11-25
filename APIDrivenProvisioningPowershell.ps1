@@ -115,9 +115,6 @@ $ScimPayloadOutputResults = foreach ($user in $employees) {
 }
 
 $ScimPayloadOutputResults | Export-Csv -Path 'EmployeeList.csv' 
-$ClientSecret = Get-Secret -Name 'APIClientSecret' -AsPlainText
-$ClientID =  'b399e0c8-644e-4a1f-b195-9b93de247909'
-
 $ClientSecretCredential = New-Object System.Management.Automation.PSCredential ($ClientID, ($ClientSecret | ConvertTo-SecureString -AsPlainText -Force))
 
 $csv2scimParamsSendAPI = @{
