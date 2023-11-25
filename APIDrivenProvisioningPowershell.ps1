@@ -7,7 +7,10 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$ServicePrincipalId,
     [Parameter(Mandatory=$true)]
-    [string]$TenantId
+    [string]$TenantId,
+    [Parameter(Mandatory=$true)]
+    [string]$Subdomain
+
     
 
 )
@@ -29,7 +32,7 @@ $ClientSecret = Get-Secret -Name 'APIClientSecret'
 .\APIDrivenProvisioningPowershell.ps1 -APIKey $APIKey -ClientSecret $ClientSecret -ServicePrincipalId $ServicePrincipalId -TenantId $TenantId
 
 #>
-$Uri = 'https://api.bamboohr.com/api/gateway.php/mimnbeyond/v1/reports/custom?format=JSON&onlyCurrent=false'
+$Uri = "https://api.bamboohr.com/api/gateway.php/$Subdomain/v1/reports/custom?format=JSON&onlyCurrent=false"
 $headers=@{}
 $headers.Add("content-type", "application/json")
 #$APIKey = Get-Secret -Name BambooAPIKey -AsPlainText
