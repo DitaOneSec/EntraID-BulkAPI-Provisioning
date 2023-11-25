@@ -28,12 +28,12 @@ runs:
         Set-Location -Path ${{ github.action_path }}
         pwd
         $parameters = @{
-           BambooAPIKey = ${{ inputs.bamboo_api_key }}
-           BambooSubdomain = ${{ inputs.bamboo_subdomain }}
-           ClientID = ${{ inputs.client_id }}
-           ClientSecret = ${{ inputs.client_secret }}
-           ServicePrincipalID = ${{ inputs.serviceprincipalid }}
-           TenantID = ${{ inputs.tenantid }}
+           BambooAPIKey = "${{ inputs.bamboo_api_key }}"
+           BambooSubdomain = "${{ inputs.bamboo_subdomain }}"
+           ClientID = "${{ inputs.client_id }}"
+           ClientSecret = "${{ inputs.client_secret }}"
+           ServicePrincipalID = "${{ inputs.serviceprincipalid }}"
+           TenantID = "${{ inputs.tenantid }}"
           }
           .\APIDrivenProvisioningEntraID.ps1 @parameters
 
