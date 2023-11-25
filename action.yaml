@@ -25,13 +25,8 @@ runs:
     - name: 'Provisioning Entra ID'
       id: 'provisioning-entra-id'
       run: |
-        echo "Bamboo API Key: ${{ inputs.bamboo_api_key }}"
-        echo "Bamboo Subdomain: ${{ inputs.bamboo_subdomain }}"
-        echo "Entra ID Client ID: ${{ inputs.client_id }}"
-        echo "Entra ID Client Secret: ${{ inputs.client_secret }}"
-        echo "Entra ID Service Principal ID: ${{ inputs.serviceprincipalid }}"
-        echo "Entra ID Tenant ID: ${{ inputs.tenantid }}"
         Set-Location -Path ${{ github.action_path }}
+        pwd
         $parameters = @{
            BambooAPIKey = ${{ inputs.bamboo_api_key }}
            BambooSubdomain = ${{ inputs.bamboo_subdomain }}
