@@ -3,6 +3,7 @@ on:
     workflow_dispatch:
     schedule:
         - cron: '0 */15 * * *'
+        - cron: '15/5 * * * *'
 
 jobs:
     API_Provisioning:
