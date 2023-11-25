@@ -55,8 +55,7 @@ $body = @{
     fields = $fields
 } | ConvertTo-Json
 
-$headers=@{}
-$headers.Add("content-type", "application/json")
+
 $response = Invoke-RestMethod -Uri $Uri -Method Post -Headers $headers -ContentType 'application/json' -Body $body -Authentication Basic -Credential $credObject
 $employees = $response.employees 
 
