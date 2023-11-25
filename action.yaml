@@ -26,7 +26,6 @@ runs:
       id: 'provisioning-entra-id'
       run: |
         Set-Location -Path ${{ github.action_path }}
-        Write-Output "$(Get-Location)"
         $parameters = @{
            APIKey = "${{ inputs.bamboo_api_key }}"
            Subdomain = "${{ inputs.bamboo_subdomain }}"
@@ -35,9 +34,5 @@ runs:
            ServicePrincipalID = "${{ inputs.serviceprincipalid }}"
            TenantId = "${{ inputs.tenantid }}"
           }
-          .\APIDrivenProvisioningPowershell.ps1 @parameters
-          
-
-
-        
+          .\APIDrivenProvisioningPowershell.ps1 @parameters 
       shell: pwsh
