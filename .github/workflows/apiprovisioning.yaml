@@ -2,8 +2,7 @@ name: 'API Provisioning'
 on:
     workflow_dispatch:
     schedule:
-        - cron: '*/15 * * * *'
-        
+        - cron: '0 */15 * * *'
 
 jobs:
     API_Provisioning:
@@ -22,5 +21,4 @@ jobs:
                 serviceprincipalid:
                     ${{ secrets.SERVICEPRINCIPALID }}
                 tenantid:
-                    ${{ secrets.TENANTID }} 
-
+                    ${{ secrets.TENANT_ID }} 
