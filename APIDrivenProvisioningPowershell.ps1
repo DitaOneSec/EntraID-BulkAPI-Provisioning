@@ -3,6 +3,8 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$APIKey,
     [Parameter(Mandatory=$true)]
+    [string]$ClientId,
+    [Parameter(Mandatory=$true)]
     [string]$ClientSecret,
     [Parameter(Mandatory=$true)]
     [string]$ServicePrincipalId,

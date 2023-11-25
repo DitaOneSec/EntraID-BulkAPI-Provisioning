@@ -108,7 +108,6 @@ param (
     [Parameter(Mandatory = $false, ParameterSetName = 'GetPreviousCycleLogs')]	
     [System.Security.Cryptography.X509Certificates.X509Certificate2] $ClientCertificate,
     # Client Secret Credential used to authenticate as client application
-    # Certificate used to authenticate as client application
     [Parameter(Mandatory = $false, ParameterSetName = 'SendScimRequest')]
     [Parameter(Mandatory = $false, ParameterSetName = 'UpdateScimSchema')]
     [Parameter(Mandatory = $false, ParameterSetName = 'GetPreviousCycleLogs')]	
@@ -541,12 +540,13 @@ function Set-AzureADProvisioningAppSchema {
 
         ## Add custom schema attributes
         foreach ($AttributeName in $AttributeNames) {
+            $AttributeName = $AttributeName.replace('"', '')
             ## ToDo: Auto-select the correct directory that is not AD or AAD. Look at id, name or Version.
             if ($SyncJobSchema.Directories[0].Objects[0].Attributes.Name.Contains("$ScimSchemaNamespace`:$AttributeName")) {
                 Write-Warning "Skipping Attribute Name [$ScimSchemaNamespace`:$AttributeName] already found in schema."
             }
             else {
-                $AttributeName = $AttributeName.replace('"', '')
+                
                 $newAttribute = @{
                     anchor            = $false
                     caseExact         = $false
