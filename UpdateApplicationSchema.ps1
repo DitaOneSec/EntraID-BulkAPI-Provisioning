@@ -19,5 +19,5 @@ $csv2scimParams = @{
     ScimSchemaNamespace = "urn:ietf:params:scim:schemas:extension:suryendub:1.0:User"
     ClientSecretCredential = $ClientSecretCredential
 }
-.\PowerShell\CSV2SCIM\src\CSV2SCIM.ps1 @csv2scimParams -Debug
+.\CSV2SCIM.ps1 @csv2scimParams -Debug
 
