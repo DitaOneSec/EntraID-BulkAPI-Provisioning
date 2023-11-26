@@ -33,7 +33,7 @@
         }
     }
     "urn:ietf:params:scim:schemas:extension:suryendub:1.0:User" = @{
-        HireDate = 'HireDate'
-        LeaveDate     = 'LeaveDate'
+        hireDate = 'HireDate'
+        leaveDate     = 'LeaveDate'
     }
 }
