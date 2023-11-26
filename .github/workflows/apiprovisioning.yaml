@@ -1,9 +1,9 @@
 name: 'API Provisioning'
 on:
     workflow_dispatch:
-    schedule:
-        - cron: '0 */15 1-23 * *'
-        - cron: '15/5 1-23 * * *'
+    #schedule:
+    #    - cron: '0 */15 1-23 * *'
+    #    - cron: '15/5 1-23 * * *'
 
 jobs:
     API_Provisioning:
