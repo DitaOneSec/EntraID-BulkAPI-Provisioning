@@ -1,6 +1,6 @@
-# Bamboo HR API Driven Provisioning to Entra ID
+# Bamboo HR API-Driven Provisioning to Entra ID
 
-This GitHub Action allows you to provision Entra ID from Bamboo HR using the Bamboo API.
+This GitHub Action allows you to provision users to Entra ID from Bamboo HR, using the Bamboo API.
 
 ## Inputs
 
