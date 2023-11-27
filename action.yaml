@@ -1,5 +1,6 @@
 name: 'Bamboo HR API Driven Provisioning Entra ID'
 description: 'Provisioning Entra ID from Bamboo HR'
+author: 'Suryendu Bhattacharyya'
 inputs:
   bamboo_api_key:
     description: 'Bamboo API Key'
@@ -36,3 +37,7 @@ runs:
           }
           .\APIDrivenProvisioningPowershell.ps1 @parameters 
       shell: pwsh
+branding:
+  color: 'blue'
+  icon: 'user-plus'
+  
