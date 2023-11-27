@@ -1,6 +1,9 @@
 name: 'API Provisioning'
 on:
     workflow_dispatch:
+    push:
+        branches:
+            - main
     #schedule:
     #    - cron: '0 */15 1-23 * *'
     #    - cron: '15/5 1-23 * * *'
@@ -9,7 +12,7 @@ jobs:
     API_Provisioning:
         runs-on: windows-latest
         steps:
-            - uses: SuryenduB/EntraID-BulkAPI-Provisioning@main
+            - uses: ./.github/actions/api-provisioning
               with:
                 bamboo_api_key:
                     ${{ secrets.BAMBOO_API_KEY }}
