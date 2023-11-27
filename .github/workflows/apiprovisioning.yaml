@@ -12,7 +12,7 @@ jobs:
     API_Provisioning:
         runs-on: windows-latest
         steps:
-            - uses: ./.github/actions/api-provisioning
+            - uses: SuryenduB/EntraID-BulkAPI-Provisioning@main
               with:
                 bamboo_api_key:
                     ${{ secrets.BAMBOO_API_KEY }}
