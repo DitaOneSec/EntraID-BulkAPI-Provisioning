@@ -27,7 +27,7 @@ function Remove-Diacritics {
     }
 }
 
-$Uri = "https://api.bamboohr.com/api/gateway.php/$Subdomain/v1/reports/custom?format=JSON&onlyCurrent=false"
+$Uri = "https://onesec-test.bizneohr.com/api/v1/users"
 $headers=@{}
 $headers.Add("content-type", "application/json")
 #$APIKey = Get-Secret -Name BambooAPIKey -AsPlainText
