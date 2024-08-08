@@ -1,6 +1,6 @@
-name: 'Bamboo HR API Driven Provisioning Entra ID'
+name: 'Bizneo HR API Driven Provisioning Entra ID'
 description: 'Provisioning Entra ID from Bamboo HR'
-author: 'Suryendu Bhattacharyya'
+author: 'Diana Fern'
 inputs:
   bamboo_api_key:
     description: 'Bamboo API Key'
@@ -28,8 +28,8 @@ runs:
       run: |
         Set-Location -Path ${{ github.action_path }}
         $parameters = @{
-           APIKey = "${{ inputs.bamboo_api_key }}"
-           Subdomain = "${{ inputs.bamboo_subdomain }}"
+           APIKey = "${{ inputs.api_key }}"
+           Subdomain = "${{ inputs.subdomain }}"
            ClientID = "${{ inputs.client_id }}"
            ClientSecret = "${{ inputs.client_secret }}"
            ServicePrincipalID = "${{ inputs.serviceprincipalid }}"
