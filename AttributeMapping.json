@@ -1,0 +1,47 @@
+{
+    "externalId": "employeeId",
+    "name": {
+        "familyName": "surname",
+        "givenName": "firstName"
+    },
+    "active": "accountEnabled",
+    "displayName": "displayName",
+    "userName": "userPrincipalName",
+    "nickName": "userPrincipalName",
+    "userType": "extensionAttribute14",
+    "title": "jobTitle",
+    "addresses": [
+        {
+            "type": "work",
+            "streetAddress": "physicalDeliveryOfficeName",
+            "locality": "City",
+            "postalCode": "ZipCode",
+            "country": "Country",
+            "region": "CountryCode"
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "type": "work",
+            "value": "telephoneNumber"
+        },
+        {
+            "type": "mobile",
+            "value": "mobile"
+        }
+    ],
+    "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+        "employeeNumber": "employeeId",
+        "department": "department",
+        "manager": {
+            "value": "manager"
+        }
+    },
+    "urn:ietf:params:scim:schemas:extension:onesec:1.0:User": {
+        "hiredate": "employeeHireDate",
+        "leavedate": "employeeLeaveDateTime",
+        "templeave": "extensionAttribute9",
+        "pronouns": "extensionAttribute10",
+        "usagelocation": "usageLocation"
+    }
+}

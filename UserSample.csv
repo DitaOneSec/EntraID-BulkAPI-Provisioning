@@ -1,0 +1,135 @@
+id;first_name;last_name;email;external_id;access;time_zone;last_login_at;Responsable;Area;Puesto;joined_at;left_at;birthday;sexo;streetAddress;postalCode;colony;locality;region;outerNumber;innerNumber;cellphone
+16195877;Alberto;Vargas Magaña;;;enabled;America/Mexico_City;;Sociedad Administrativa;Socio;Director Ejecutivo;2020-02-06;;1976-08-07;Masculino;;;;;;;;55 2690 5831
+16195974;Alejandra Esthephania;Nava Lugo;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;MDR-SOC;T2;2021-06-21;;1995-12-07;Femenino;;;;;;;;55 7665 5627
+16195938;Alejandro;Córdova Cruz;;;enabled;America/Mexico_City;;Ulises Sánchez Ángel;Cybersecurity Plataform;Becario;2024-03-21;;1999-07-10;Masculino;;;;;;;;56 3047 6760
+16195869;Alejandro Martín;Berman Cruz;;;enabled;America/Mexico_City;;Carlos Abraham Quijas Luna;Consulting;Líder de cumplimiento y gobernanza;2022-05-02;;1985-08-18;Masculino;;;;;;;;55 2756 1082
+16196016;Alma Delia;Rojas Vigueras;;;enabled;America/Mexico_City;;Daniel Martínez Silva;Project Management Office;Administrador de Proyectos;2022-06-16;;1990-09-22;Femenino;;;;;;;;72 9380 0084
+16195923;Ana Jazmin;Salazar Martínez;;;enabled;America/Mexico_City;;;;;2023-03-31;;;;;;;;;;;
+16195958;Andrea Patricia;Olguín Ferreira;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Security Compliance Consultant;2023-10-16;;1985-07-27;Femenino;;;;;;;;55 2337 5327
+16195952;Andrés;Rocha García;;;enabled;America/Mexico_City;;Francisco Ovalle Félix;Secure Modern Cloud;Gerente de Servicios;2022-09-19;;1991-05-10;Masculino;;;;;;;;55 2317 9806
+16195970;Angelica;Angeles Monroy;;;enabled;America/Mexico_City;;Edith Viridiana García Barcenas;Recursos Humanos;Analista de Recursos Humanos;2022-09-01;;1998-06-06;Femenino;;;;;;;;56 1082 9786
+16217402;Angelica Test;Angeles;aangelesm@onesec.mx;;enabled;America/Mexico_City;2024-05-29T23:10:34;;;;2024-05-28;;;;;;;;;;;
+16195871;Arturo;Cortés Maya;;;enabled;America/Mexico_City;;Alberto Vargas Magaña (Interino);Comercial;Ejecutivo de Cuenta;2022-03-01;;1981-10-06;Masculino;;;;;;;;55 8525 4111
+16195949;Berenice;Campos Balderas;;;enabled;America/Mexico_City;;Alejandro Martín Berman Cruz;Consulting;Consultor de cumplimiento y gobernanza;2022-10-17;;1982-12-07;Femenino;;;;;;;;55 2819 2886
+16196001;Brenda Jaquelyn;Ramírez Rosales;;;revoked;America/Mexico_City;;Edith Viridiana García Barcenas;Recursos Humanos;Becario;2023-05-08;;1999-05-17;Femenino;;;;;;;;5550407871
+16195860;Bryan Genaro;Munguía Arellano;;;enabled;America/Mexico_City;;Isaí Calderón Castañeda;Secure Modern Cloud, Entra ID;Becario;2024-03-21;;1999-09-10;Masculino;;;;;;;;55 7194 6052
+16195932;Carlos Abraham;Quijas Luna;;;enabled;America/Mexico_City;;Sociedad Administrativa;Socio;Director de Servicios Avanzados;2021-10-01;;1982-03-18;Masculino;;;;;;;;55 9185 3699
+16195981;Carlos Alberto;Carrillo Ambrosio;;;enabled;America/Mexico_City;;Ulises Sánchez Ángel;Tenable-CyberArk-Insights;Consultor Jr;2024-01-22;;1996-05-01;Masculino;;;;;;;;55 4384 7615
+16195913;Carlos Alberto;Morales Medrano;;;enabled;America/Mexico_City;;Israel Alejandro Segovia Aguilar;Presales Secure Modern Cloud;Preventa Sr;2022-02-01;;1977-02-13;Masculino;;;;;;;;81 2022 3113
+16196008;Carlos Arturo;Alegría Martínez;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;MDR-SOC;T1;2023-09-18;;1996-04-24;Masculino;;;;;;;;55 3249 8075
+16195863;Cesar Eduardo;Hernández Martínez;;;enabled;America/Mexico_City;;Fernando Palacios Rodríguez Verdín;Cybersecurity Plataform, CheckPoint-DarkTrace-Anomali;Becario;2024-03-21;;2000-09-07;Masculino;;;;;;;;55  7198 2732
+16196009;Christian Eduardo;Cagal Martinez;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera (Interino);MDR-SOC;T1;2022-10-03;;1996-06-02;Masculino;;;;;;;;5618095313
+16195904;Copilli Mariano;Hernández Ballesteros;;;enabled;America/Mexico_City;;Alberto Vargas Magaña (Interino);Comercial;Ejecutivo de Cuenta;2021-04-26;;1983-10-05;Masculino;;;;;;;;55 4989 7075
+16196018;Cristina;Montecillo Jiménez;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Administrador de Proyectos;2024-04-09;;1982-06-19;Femenino;;;;;;;;55 2284 2846
+16195921;Daniel;Martínez Silva;;;enabled;America/Mexico_City;;Francisco Ovalle Félix;Project Management Office;Gerente de PMO;2020-09-23;;1979-09-23;Masculino;;;;;;;;55 6456 1564
+16195996;Daniel;Ruelas Angeles;;;enabled;America/Mexico_City;;Edgar Díaz Lambarry;Imperva-Infoblox-RTheart ;Consultor Sr;2022-09-05;;1995-05-16;Masculino;;;;;;;;55 7918 1425
+16196006;Daniel;Ruiz Solano;;;enabled;America/Mexico_City;;Ruben Álvarez López;Protect and Govern Sensitive Data & Mitigate Compliance and Privacy;Analista de seguridad;2022-10-25;;2001-02-20;Masculino;;;;;;;;56 1006 8574
+16196004;Daniel Agustín;Flores Herrera;;;enabled;America/Mexico_City;;Carlos Abraham Quijas Luna;Security Operation;Líder de operaciones de seguridad;2022-05-05;;1989-01-25;Masculino;;;;;;;;55 6295 4865
+16196022;David;Azuceno Orellana;;;enabled;America/Mexico_City;;Daniel Martínez Silva;Project Management Office;Administrador de Proyectos;2022-08-08;;1989-12-06;Masculino;;;;;;;;55 7812 2803
+16195914;David;Otero Gómez;;;enabled;America/Mexico_City;;Fernando Palacios Rodríguez Verdín;CheckPoint-DarkTrace-Anomali;Consultor Jr;2022-10-10;;1998-11-02;Masculino;;;;;;;;56 2678 2477
+16195920;David Abraham;Castañeda Pérez;;;enabled;America/Mexico_City;;Alberto Vargas Magaña;Cybersecurity Plataform;Gerente de Preventa y Servicios;2020-08-16;;1988-03-16;Masculino;;;;;;;;55 4186 3845
+16195882;David Edher;Mora Morán;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;Servicios Administrados;Gerente de Servicios Administrados;2020-08-17;;1987-04-30;Masculino;;;;;;;;55 4499 8817
+16196000;Diana Patricia;Fernández Madrigal;dfernandezm@onesec.mx;;enabled;America/Mexico_City;2024-08-08T19:48:31;Andrés Rocha Garcia;Secure Modern Cloud;;2024-05-02;;;;;;;;;;;
+16196027;Donovan;Pérez Torres;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Analista de seguridad;2023-09-18;;1998-06-24;Masculino;;;;;;;;56 1680 1426
+16195950;Eddy Alfonso;Velásquez Soto;evelasquezs@onesec.mx;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Consultor Sr;2024-05-06;;;;;;;;;;;
+16195897;Eder Gabael;Aguilar Rodríguez;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;MDR-SOC;T2;2022-02-16;;1987-09-11;Masculino;;;;;;;;44 2177 876
+16195891;Edgar;Díaz Lambarry;;;enabled;America/Mexico_City;;Luis Fernando Aguirre Aguirre;Imperva-Infoblox-RTheart ;Líder de torre (Consultor Sr);2018-11-16;;1980-09-19;Masculino;;;;;;;;55 8525 4111
+16195943;Edilberto;Quezada Martínez;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;Servicios Administrados;Analista de seguridad;2023-03-06;;1998-12-09;Masculino;;;;;;;;55 8129 2794
+16195870;Edith Viridiana;García Barcenas;egarciab@onesec.mx;;enabled;America/Mexico_City;2024-07-26T00:18:56;Francisco Ovalle Félix;Recursos Humanos;Directora de Recursos Humanos;2021-09-06;;1984-08-31;Femenino;;;;;;;;55 6006 6216
+16195965;Edna Edel;López Morán;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;MDR-SOC;T2;2021-01-04;;1996-06-17;Femenino;;;;;;;;55 3072 5534
+16195953;Eduardo;Castañeda Ramos;;;enabled;America/Mexico_City;;Jorge González Velázquez;Secure Identities and Access;Consultor Sr;2023-04-24;;1985-09-08;Masculino;;;;;;;;55 5402 0467
+16367905;Eduardo;Test;mcaballerod@onesec.mx;;enabled;America/Mexico_City;2024-08-08T17:13:29;Edith Viridiana García Barcenas;Recursos Humanos;Soporte técnico;2024-07-01;;;;;;;;;;;
+16195980;Edwin Enrique;Fragoso García;;;enabled;America/Mexico_City;;Ruben Álvarez López;Secure Modern Cloud, Security 365 (Defenders);Becario;2024-03-21;;2001-05-27;Masculino;;;;;;;;55 4381 9147
+16195987;Eli;Flores Estrada;;;enabled;America/Mexico_City;;Israel García Badillo;Administración y Finanzas;Analista de Administración y Finanzas ;2024-03-19;;;;;;;;;;;
+16196005;Enrique Javier;Mejía Quispe;;;enabled;America/Mexico_City;;Ulises Sánchez Ángel;Tenable-CyberArk-Insights;Líder de torre (Consultor Sr);2022-11-28;;1987-06-22;Masculino;;;;;;;;593984632343
+16195964;Erick Isaac;Mondragón Jayme;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Consultor Jr;2022-01-22;;1988-10-10;Masculino;;;;;;;;55 2938 1521
+16196021;Erika;Santacruz Ubando;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Administrador de Proyectos;2023-01-09;;1975-04-09;Femenino;;;;;;;;55 7514 0305
+16195874;Estrella Celeste;Berrios Villalobos;;;enabled;America/Mexico_City;;Fernando Palacios Rodríguez Verdín;CheckPoint-DarkTrace-Anomali;Consultor Jr;2022-11-01;;1994-09-13;Femenino;;;;;;;;55 1732 4369
+16195947;Eulalia Susana;Sánchez López;;;enabled;America/Mexico_City;;Karen Itzel Martínez León;Marketing;;2023-03-06;;1983-08-11;Femenino;;;;;;;;55 1228 6445
+16195909;Felipe Ulises;Castillo Navarrete;;;enabled;America/Mexico_City;;Edgar Díaz Lambarry;Imperva-Infoblox-RTheart ;Consultor Sr;2020-07-29;;1995-06-18;Masculino;;;;;;;;55 5409 8791
+16195983;Fernando;Villavicencio Rodríguez;;;enabled;America/Mexico_City;;Jonathan Rascón Elizalde;Xtend Detection and Management;Consultor Jr;2021-11-08;;1997-02-21;Masculino;;;;;;;;55 3241 8441
+16195994;Fernando Palacios;Rodríguez Verdín;;;enabled;America/Mexico_City;;Luis Fernando Aguirre Aguirre;CheckPoint-DarkTrace-Anomali;Líder de torre (Consultor Sr);2021-05-31;;1996-05-29;Masculino;;;;;;;;55 4553 1675
+16195922;Francisco;Ovalle Félix;;;enabled;America/Mexico_City;;Sociedad Administrativa;Socio;Director de Operaciones;2020-02-06;;1975-04-15;Masculino;;;;;;;;55 5104 8285
+16195912;Francisco Alejandro;Ruíz Pérez;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Administrador de Proyectos;2024-02-26;;;;;;;;;;;
+16196023;Guillermo;González Velázquez;;;enabled;America/Mexico_City;;Ulises Sánchez Ángel;Cybersecurity Plataform, Tenable-CyberArk-Insights;Becario;2024-03-21;;;;;;;;;;;
+16196019;Gustavo;Castillo de la Cruz;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Administrador de Proyectos;2024-04-09;;;;;;;;;;;
+16195867;Hector;García Puebla;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;MDR-SOC;Becario;2024-03-21;;;;;;;;;;;
+16196025;Hugo Adi;Jiménez Martínez;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;MDR-SOC;Becario;2024-03-21;;;;;;;;;;;
+16196015;Ignacio Joel;García Cortés;;;enabled;America/Mexico_City;;Fernando Palacios Rodríguez Verdín;CheckPoint-DarkTrace-Anomali;Becario;2023-07-06;;1999-03-24;Masculino;;;;;;;;55 6202 9980
+16195989;Iris Selene;Trejo Cleofas;;;enabled;America/Mexico_City;;Karen Itzel Martínez León;Marketing;Diseñador WEB UX;2024-03-19;;;;;;;;;;;
+16195924;Isabel;Montes García;;;enabled;America/Mexico_City;;Octavio Medina García;Administración y Finanzas;Analista de contabilidad;2023-05-08;;1994-12-13;Femenino;;;;;;;;55 3532 5558
+16196020;Isaí;Calderón Castañeda;icalderonc@onesec.mx;;enabled;America/Mexico_City;2024-05-29T21:18:46;Andrés Rocha Garcia;Defend Against Threats with SIEM & Defender for Cloud;Líder de torre (Consultor Sr);2022-08-22;;1984-04-07;Masculino;;;;;;;;55 4454 2034
+16195934;Isaías Abraham;Manzano Cruz;;;enabled;America/Mexico_City;;Marcelo Daniel Barrera Plata;Offensive Services;Senior Technical Advisor / Purple Team;2023-07-17;;1995-04-24;Masculino;;;;;;;;55 3634 8787
+16195977;Israel;García Badillo;;;enabled;America/Mexico_City;;Francisco Ovalle Félix;Administración y Finanzas;Gerente de Administración y Finanzas;2023-12-21;;1972-02-17;Masculino;;;;;;;;55 5435 4086
+16195908;Israel Alejandro;Segovia Aguilar;;;enabled;America/Mexico_City;;Graciela Edith García Rodríguez;Presales Secure Modern Cloud;Gerente de Preventa;2020-04-01;;1994-12-24;Masculino;;;;;;;;55 7844 4435
+16195906;Ivonne;González Paredes;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Consultor Jr;2024-05-09;;;;;;;;;;;
+16195905;Jean Carlo;González Martínez;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera (Interino);MDR-SOC;Becario;2022-08-08;;2000-10-20;Masculino;;;;;;;;55 6414 2722
+16195886;Jesús Antonio;Hernández Cordova;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Consultor Sr;2022-06-01;;1980-06-13;Masculino;;;;;;;;55 2270 9958
+16195931;Jesús Enrique;Francia Campos;;;enabled;America/Mexico_City;;Alberto Vargas Magaña (Interino);Comercial;Ejecutivo de Cuenta;2023-05-08;;1963-06-30;Masculino;;;;;;;;55 5408 6666
+16196026;Jesús Norberto;Vital Arguelles;;;enabled;America/Mexico_City;;Ulises Sánchez Ángel;Tenable-CyberArk-Insights;Consultor Sr;2022-10-10;;1990-06-22;Masculino;;;;;;;;55 1191 3343
+16195967;Johanna Soe;Temich Cabrera;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Consultor Jr;2020-10-19;;1996-06-24;Femenino;;;;;;;;55 3440 6382
+16196010;Jonathan;Rascón Elizalde;;;enabled;America/Mexico_City;;Andrés Rocha Garcia;Xtend Detection and Management;Líder de torre (Consultor Sr);2021-07-19;;1991-12-05;Masculino;;;;;;;;55 3233 3622
+16195902;Jorge;González Velázquez;;;enabled;America/Mexico_City;;Andrés Rocha Garcia;Secure Identities and Access;Líder de torre (Consultor Sr);2021-12-06;;1992-07-04;Masculino;;;;;;;;55 4530 4730
+16195861;Jorge Mauricio;Pérez Zubillaga;;;enabled;America/Mexico_City;;Jonathan Rascón Elizalde;Secure Modern Cloud, Defend Against Threats with SIEM & Defender for Cloud;Becario;2024-03-21;;;;;;;;;;;
+16195973;José Alberto;Pérez Pérez;;;enabled;America/Mexico_City;;Jorge González Velázquez;Secure Identities and Access;Analista de seguridad;2022-05-02;;1987-04-26;Masculino;;;;;;;;55 2747 2679
+16195992;José Ignacio;Palmerin Hernández;;;enabled;America/Mexico_City;;Fernando Palacios Rodríguez Verdín;CheckPoint-DarkTrace-Anomali;Becario;2023-07-06;;2001-10-27;Masculino;;;;;;;;55 3323 9508
+16195916;Joselin;Sánchez Jiménez;;;enabled;America/Mexico_City;;Israel García Badillo;Administración y Finanzas;Coordinadora de Administración y Finanzas;2023-05-10;;1988-11-23;Femenino;;;;;;;;55 3673 0719
+16195979;José Napoleón;Valle Gil;;;enabled;America/Mexico_City;;Alberto Vargas Magaña (Interino);Comercial;Ejecutivo de Cuenta;2023-12-01;;1978-06-30;Masculino;;;;;;;;55 3656 0570
+16195998;José Roberto;Durán Hernández;;;enabled;America/Mexico_City;;Ulises Sánchez Ángel;Cybersecurity Plataform, Tenable-CyberArk-Insights;Becario;2024-04-12;;;;;;;;;;;
+16195951;José Rogelio;Sánchez Moreno;;;revoked;America/Mexico_City;;Daniel Martínez Silva;Project Management Office;Administrador de Proyectos;2024-05-06;;;;;;;;;;;
+16195963;Josue Aldo;Ferrel Austria;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Consultor Jr;2023-12-22;;1997-06-27;Femenino;;;;;;;;56 2209 4149
+16195995;Juan Antonio;Maldonado Sorcia;;;enabled;America/Mexico_City;;Israel Alejandro Segovia Aguilar;Presales Secure Modern Cloud;Preventa Sr;2019-02-05;;1982-01-25;Masculino;;;;;;;;55 3513 2565
+16195946;Julio César;Álvarez Monfil;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Consultor Jr;2023-08-28;;1994-10-25;Masculino;;;;;;;;55 8611 7429
+16195966;Karen Itzel;Martínez León;;;enabled;America/Mexico_City;;Alberto Vargas Magaña (Interino);Marketing;Gerente de Marketing;2023-11-03;;1994-08-04;Femenino;;;;;;;;55 1357 7983
+16195999;Karla Stephany;Reyes Montes;;;enabled;America/Mexico_City;;Edith Viridiana García Barcenas;Recursos Humanos;Analista de Recursos Humanos;2024-05-02;;;;;;;;;;;
+16195954;Katya Elizabeth;Gómez Alaniz;;;enabled;America/Mexico_City;;Marcelo Daniel Barrera Plata;Offensive Services;Pentester;2022-10-10;;1998-01-06;Femenino;;;;;;;;55 6116 7542
+16195858;Laeyla Monserrat;Garrido Rodríguez;;;enabled;America/Mexico_City;;Fernando Palacios Rodríguez Verdín;CheckPoint-DarkTrace-Anomali;Consultor Jr;2023-03-06;;1996-08-30;Femenino;;;;;;;;55 3909 2490
+16196002;Lenin;García Ruiz;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;CROC;Becario;2023-03-21;;1998-03-05;Masculino;;;;;;;;55 6881 8851
+16195910;Leonardo;Ríos López;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;MDR-SOC;Becario;2023-04-18;;1998-08-14;Masculino;;;;;;;;55 6900 3626
+16196003;Leticia;Espinosa Vargas;;;enabled;America/Mexico_City;;Alejandro Martín Berman Cruz;Consulting;Becario;2022-10-10;;1997-08-08;Femenino;;;;;;;;56 1878 5617
+16195919;Lizethy;Cano Gaona;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;CROC;Becario;2023-03-21;;1998-03-16;Femenino;;;;;;;;55 8799 1714
+16195935;Lucy Alejandra;Casillas Gómez;;;enabled;America/Mexico_City;;Alejandro Martín Berman Cruz;Consulting;Consultor de cumplimiento y gobernanza;2022-08-15;;1985-10-08;Femenino;;;;;;;;55 2727 0535
+16195959;Luis Alberto;Martínez Silva;;;enabled;America/Mexico_City;;Carlos Abraham Quijas Luna;Offensive Services;Senior Technical Advisor / Purple Team;2023-08-14;;1981-01-20;Masculino;;;;;;;;55 3137 9545
+16195865;Luis Ángel;García Alvarado;;;enabled;America/Mexico_City;;Ulises Sánchez Ángel;Cybersecurity Plataform, Tenable-CyberArk-Insights;Becario;2024-03-21;;;;;;;;;;;
+16195868;Luis Ángel;Romero Barrientos;;;enabled;America/Mexico_City;;Isaí Calderón Castañeda;Secure Modern Cloud;Becario;2024-03-21;;;;;;;;;;;
+16195948;Luis Antonio;Mendoza Pedraza;;;enabled;America/Mexico_City;;Francisco Ovalle Félix;Channels management - Microsoft;Vendor Success Manager;2022-02-21;;1984-03-07;Masculino;;;;;;;;55 2857 0586
+16195961;Luis Eduardo;Maldonado Doroteo;;;enabled;America/Mexico_City;;Isaí Calderón Castañeda;Defend Against Threats with SIEM & Defender for Cloud;Becario;2022-10-10;;1996-11-19;Masculino;;;;;;;;55 2668 2000
+16195945;Luis Fernando;Aguirre Aguirre;;;enabled;America/Mexico_City;;Alberto Vargas Magaña;Imperva-Infoblox-RTheart , CheckPoint-DarkTrace-Anomali, Tenable-CyberArk-Insights;Gerente Cybersecurity;2023-10-16;;1996-01-15;Masculino;;;;;;;;55 3898 7656
+16195976;Luis Gerardo;Barranco Neri;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;MDR-SOC;Becario;2023-09-18;;2000-01-17;Masculino;;;;;;;;55 7886 7187
+16195859;Manuel;Velázquez Reyes;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;MDR-SOC;Becario;2023-03-06;;2000-07-17;Masculino;;;;;;;;55 8648 6440
+16195930;Manuel Getzemani;Rodríguez García;;;enabled;America/Mexico_City;;Edgar Díaz Lambarry;Cybersecurity Plataform, Imperva-Infoblox-RTheart ;Becario;2024-04-12;;;;;;;;;;;
+16195968;Marcelo Daniel;Barrera Plata;;;enabled;America/Mexico_City;;Carlos Abraham Quijas Luna;Offensive Services;Senior Technical Advisor / Purple Team;2021-11-08;;1990-03-31;Masculino;;;;;;;;55 1008 3204
+16195936;María de Jesús;Parra Gutiérrez;;;enabled;America/Mexico_City;;Alberto Vargas Magaña (Interino);Comercial;Ejecutivo de Cuenta;2023-12-11;;1984-02-24;Femenino;;;;;;;;81 8778 0451
+16195993;Maria Fernanda;Valdes Ledezma;;;enabled;America/Mexico_City;;Alberto Vargas Magaña (Interino);Administración de ventas;Sales Excellence Manager;2018-11-20;;1996-03-01;Femenino;;;;;;;;55 8335 1909
+16195972;Mario Alberto;Tapia Luna;;;enabled;America/Mexico_City;;Andrés Rocha Garcia;Secure Modern Cloud;;2024-02-06;;1988-01-16;Masculino;;;;;;;;55 7897 8460
+16195944;Mario Alejandro;Mantecón Sánchez;;;enabled;America/Mexico_City;;Alberto Vargas Magaña (Interino);Comercial;Ejecutivo de Cuenta;2023-08-28;;1988-01-18;Masculino;;;;;;;;55 3407 8973
+16195955;Mario Anselmo;Gómez Sánchez;;;enabled;America/Mexico_City;;Alejandro Martín Berman Cruz;Protect and Govern Sensitive Data & Mitigate Compliance and Privacy;;2023-10-16;;1972-06-15;Masculino;;;;;;;;55 4450 3123
+16195962;Martha;Diaz Bonilla;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Consultor Jr;2023-12-21;;1980-09-01;Femenino;;;;;;;;5622094149
+16195875;Melissa;Quintana Guilbert;;;enabled;America/Mexico_City;;Alberto Vargas Magaña (Interino);Comercial;Ejecutivo de Cuenta;2023-05-15;;1995-05-09;Femenino;;;;;;;;55 3141 5144
+16195917;Miguel Eduardo;Caballero Delgado;;;enabled;America/Mexico_City;;Edith Viridiana García Barcenas, Andrés Rocha Garcia;Recursos Humanos;Soporte técnico;2023-04-03;;1989-09-04;Masculino;;;;;;;;55 5984 0766
+16196013;Miguel León Octavio;López Varela;;;enabled;America/Mexico_City;;Daniel Martínez Silva;Project Management Office;Administrador de Proyectos;2023-09-04;;1972-08-25;Masculino;;;;;;;;55 8101 3899
+16195872;Mitzi Guadalupe;Ochoa Molina;;;enabled;America/Mexico_City;;Jonathan Rascón Elizalde;Xtend Detection and Management;Becario;2022-10-10;;1997-12-12;Femenino;;;;;;;;55 1505 2998
+16195873;Nancy Diane;Chávez Gutiérrez;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Administrador de Proyectos;2023-01-23;;1996-02-06;Femenino;;;;;;;;55 3948 6065
+16196007;Nancy Elena;Rodríguez Rojas;;;enabled;America/Mexico_City;;Alberto Vargas Magaña (Interino);Comercial;Ejecutivo de Cuenta;2021-09-06;;1991-11-24;Femenino;;;;;;;;55 4447 9327
+16195866;Nayeli;Prado Viveros;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera (Interino);MDR-SOC;T1;2021-11-08;;1997-06-09;Femenino;;;;;;;;55 3247 9129
+16195881;Octavio;Medina García;;;enabled;America/Mexico_City;;Israel García Badillo;Administración y Finanzas;Contador General;2021-06-14;;1979-05-23;Masculino;;;;;;;;55 7378 4038
+16195997;Omar Alfonso;Viveros Campos;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;MDR-SOC;T2;2022-07-25;;1994-01-06;Masculino;;;;;;;;55 1615 1287
+16196017;Oscar;Téllez Martínez;;;enabled;America/Mexico_City;;Marcelo Daniel Barrera Plata;Offensive Services;Pentester;2023-07-03;;1995-12-16;Masculino;;;;;;;;55 2193 3258
+16195957;Oscar Iván;Flores Ávila;;;enabled;America/Mexico_City;;Carlos Abraham Quijas Luna;Offensive Services;Senior Technical Advisor / Purple Team;2022-07-25;;1991-08-28;Masculino;;;;;;;;55 8176 6368
+16195942;Paulina Araceli;Martínez Lazcano;;;enabled;America/Mexico_City;;Daniel Martínez Silva;Project Management Office;Administrador de Proyectos;2022-11-22;;1983-11-24;Femenino;;;;;;;;55 4448 1889
+16196024;Pedro Moisés;Feria Flores;;;enabled;America/Mexico_City;;Edgar Díaz Lambarry;Imperva-Infoblox-RTheart ;Becario;2022-10-10;;1993-06-20;Masculino;;;;;;;;55 4577 4589
+16195933;Ramiro Adán;García García;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera;Security Operation;Tier 3 - Threat hunting;2020-04-13;;1985-12-30;Masculino;;;;;;;;81 8366 1808
+16195939;Ricardo;Cruz Miranda;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera (Interino);MDR-SOC;Becario;2023-09-18;;1988-10-17;Masculino;;;;;;;;55 8210 7628
+16195978;Ricardo;Ramírez Antonio;;;enabled;America/Mexico_City;;Luis Fernando Aguirre Aguirre;Imperva-Infoblox-RTheart ;Becario;2022-10-25;;1992-10-28;Masculino;;;;;;;;55 8640 4805
+16196011;Roberto;Ambriz Espinoza;;;enabled;America/Mexico_City;;Daniel Agustín Flores Herrera (Interino);MDR-SOC;T1;2021-12-06;;1990-07-16;Masculino;;;;;;;;55 3900 9146
+16195988;Roció Angelica;Villalba Hernández;;;enabled;America/Mexico_City;;Edith Viridiana García Barcenas;Recursos Humanos;Analista de compras;2024-03-19;;;;;;;;;;;
+16195888;Rosa Itzel;Tena Cruz;;;enabled;America/Mexico_City;;Fernando Palacios Rodríguez Verdín;CheckPoint-DarkTrace-Anomali;Becario;2022-10-10;;1998-08-10;Femenino;;;;;;;;55 2754 5892
+16195984;Ruben;Álvarez López;;;enabled;America/Mexico_City;;Andrés Rocha Garcia;Protect and Govern Sensitive Data & Mitigate Compliance and Privacy;Líder de torre (Consultor Sr);2019-05-06;;1979-05-30;Masculino;;;;;;;;99 9292 7298
+16195956;Saúl;Soria Rojas;;;enabled;America/Mexico_City;;Isaí Calderón Castañeda;Secure Modern Cloud, Protect and Govern Sensitive Data & Mitigate Compliance and Privacy;Becario;2024-03-21;;;;;;;;;;;
+16195960;Sergio Iván;Sánchez Rosas;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Consultor Jr;2023-08-07;;1993-03-14;Masculino;;;;;;;;55 5991 9517
+16195991;Teresa de Jesús;Cruz Nocelo;;;enabled;America/Mexico_City;;David Edher Mora Morán;Servicios Administrados;Consultor Sr;2023-08-28;;1996-10-22;Femenino;;;;;;;;55 3407 8973
+16196014;Ulises;Rojas Martínez;;;enabled;America/Mexico_City;;Israel Alejandro Segovia Aguilar;Presales Secure Modern Cloud;Preventa Jr;2022-01-17;;1982-12-20;Masculino;;;;;;;;55 5437 4303
+16195985;Ulises;Sánchez Ángel;;;enabled;America/Mexico_City;;Luis Fernando Aguirre Aguirre;Tenable-CyberArk-Insights;Líder de torre (Consultor Sr);2022-10-24;;1994-12-24;Masculino;;;;;;;;55 1593 3808
+16195975;Victor Alejandro;Zaragoza Zamora;;;enabled;America/Mexico_City;;Ulises Sánchez Ángel;Tenable-CyberArk-Insights;Analista de seguridad;2024-01-22;;1993-07-30;Masculino;;;;;;;;55 4451 5063
+16195982;Violeta;Durán Ávila;;;enabled;America/Mexico_City;;Alejandro Martín Berman Cruz;Consulting;Consultor de cumplimiento y gobernanza;2022-08-08;;1990-06-23;Femenino;;;;;;;;55 1378 2724
+16195971;Viviana;Ricardo Aburto;;;enabled;America/Mexico_City;;Alejandro Martín Berman Cruz;Consulting;Becario;2024-04-02;;1997-10-30;Femenino;;;;;;;;55 1201 8009

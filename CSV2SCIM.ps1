@@ -358,32 +358,32 @@ function ConvertTo-ScimPayload {
             }
         }
 
-        # function Invoke-PropertyMapping {
-        #     param (
-        #         # Resource Data
-        #         [Parameter(Mandatory = $true, ValueFromPipeline = $true)]
-        #         [object] $InputObject,
-        #         # Map input properties to another
-        #         [Parameter(Mandatory = $true)]
-        #         [object] $PropertyMapping
-        #     )
+        function Invoke-PropertyMapping {
+            param (
+                # Resource Data
+                [Parameter(Mandatory = $true, ValueFromPipeline = $true)]
+                [object] $InputObject,
+                # Map input properties to another
+                [Parameter(Mandatory = $true)]
+                [object] $PropertyMapping
+            )
 
-        #     foreach ($_PropertyMapping in $PropertyMapping) {
-        #         if ($_PropertyMapping -is [scriptblock]) {
-        #             Invoke-Transformation $InputObject $_PropertyMapping
-        #         }
-        #         elseif ($_PropertyMapping -is [hashtable] -or $_PropertyMapping -is [System.Collections.Specialized.OrderedDictionary]) {
-        #             $TargetObject = @{}
-        #             foreach ($_PropertyMapping2 in $_PropertyMapping.GetEnumerator()) {
-        #                 $TargetObject[$_PropertyMapping2.Key] = Invoke-PropertyMapping2 $InputObject $_PropertyMapping2.Value
-        #             }
-        #             Write-Output $TargetObject
-        #         }
-        #         else {
-        #             $InputObject.($_PropertyMapping)
-        #         }
-        #     }
-        # }
+            foreach ($_PropertyMapping in $PropertyMapping) {
+                if ($_PropertyMapping -is [scriptblock]) {
+                    Invoke-Transformation $InputObject $_PropertyMapping
+                }
+                elseif ($_PropertyMapping -is [hashtable] -or $_PropertyMapping -is [System.Collections.Specialized.OrderedDictionary]) {
+                    $TargetObject = @{}
+                    foreach ($_PropertyMapping2 in $_PropertyMapping.GetEnumerator()) {
+                        $TargetObject[$_PropertyMapping2.Key] = Invoke-PropertyMapping2 $InputObject $_PropertyMapping2.Value
+                    }
+                    Write-Output $TargetObject
+                }
+                else {
+                    $InputObject.($_PropertyMapping)
+                }
+            }
+        }
 
         function Invoke-Transformation {
             param (

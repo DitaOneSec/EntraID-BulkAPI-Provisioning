@@ -1,55 +1,47 @@
-@{
-    externalId  = 'id'
-    name        = @{
-        familyName = 'last_name'
-        givenName  = 'first_name'
+$AttributeMapping = @{
+    'externalId' = 'employeeId'
+    'name' = @{
+        'familyName' = 'last_name'
+        'givenName'  = 'first_name'
     }
-    active      = { $_.'estatus_póliza_sgmm_' -eq 'Active' }
-    userName    = 'email'
-    displayName = "$($_.'first_name') $($_.'last_name')"
-    nickName    = 'email'
-    userType    = 'tipo'
-    title       = 'carrera'
-    addresses   = @(
+    'active' = 'accountEnabled'
+    'displayName' = 'displayName'
+    'userName' = 'userPrincipalName'
+    'nickName' = 'userPrincipalName'
+    'userType' = 'extensionAttribute14'
+    'title' = 'jobTitle'
+    'addresses' = @(
         @{
-            type          = 'work'
-            streetAddress = "$($_.'calle') $_.'no._ext' $_.'no._int'"
-            locality      = 'delegación_o_municipio'
-            postalCode    = 'código_postal'
-            country       = 'entidad_federativa'
+            'type'          = 'work'
+            'streetAddress' = 'physicalDeliveryOfficeName'
+            'locality'      = 'region'
+            'postalCode'    = 'postalCode'
+            'country'       = 'country'
+            'region'        = 'region'
         }
     )
-    phoneNumbers = @(
+    'phoneNumbers' = @(
         @{
-            type  = 'work'
-            value = 'teléfono_celular'
-        },
+            'type'  = 'work'
+            'value' = 'telephoneNumber'
+        }
         @{
-            type  = 'emergency'
-            value = 'número_de_emergencia'
+            'type'  = 'mobile'
+            'value' = 'cellphone'
         }
     )
-    "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User" = @{
-        employeeNumber        = 'id'
-        costCenter            = 'costo'
-        organization          = 'patrón'
-        division              = 'tipo_de_membresia'
-        department            = 'carrera'
-        clabeInterbancaria    = 'clabe_interbancaria_18_dig'
-        cuentaBancaria        = 'cuenta_bancaria'
-        curp                 = 'curp'
-        rfc                  = 'rfc'
-        nss                  = 'nss'
-        cédulaProfesional    = 'cédula_profesional'
-        nombreDelBanco       = 'nombre_del_banco'
-        birthday             = 'birthday'
-        emailPersonal        = 'email_personal'
-        equipoAsignado       = 'equipo_asignado'
-        time_zone            = 'time_zone'
-        last_login_at        = 'last_login_at'
-        joined_at            = 'joined_at'
-        left_at              = 'left_at'
-        sexo                 = 'sexo'
-        colonia              = 'colonia'
+    'urn:ietf:params:scim:schemas:extension:enterprise:2.0:User' = @{
+        'employeeNumber' = 'employeeId'
+        'department'     = 'department'
+        'manager'        = @{
+            'value' = 'manager'
+        }
+    }
+    'urn:ietf:params:scim:schemas:extension:onesec:1.0:User' = @{
+        'hiredate'       = 'employeeHireDate'
+        'leavedate'      = 'employeeLeaveDateTime'
+        'templeave'      = 'extensionAttribute9'
+        'pronouns'       = 'extensionAttribute10'
+        'usagelocation'  = 'access'
     }
 }
