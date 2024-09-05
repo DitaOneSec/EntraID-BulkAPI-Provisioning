@@ -1,12 +1,12 @@
 $ClientSecret = Get-Secret -Name 'APIClientSecret'
-$ClientID =  'b399e0c8-644e-4a1f-b195-9b93de247909'
+$ClientID =  '6eba9bee-8dfb-49ce-9710-1ca5cce5c495'
 $ClientSecretCredential = New-Object System.Management.Automation.PSCredential ($ClientID, $ClientSecret)
 
 $csv2scimParamsSendAPI = @{
-    Path = '.\EmployeeList.csv'
-    AttributeMapping = Import-PowerShellDataFile '.\AttributeMapping.psd1'
-    ServicePrincipalId = 'e49999e2-05b0-4f63-a518-c9a04ec16589'
-    TenantId = '58264fae-2f34-4dc4-9500-c860b7d7aec6'
+    Path = '.Samples\csv-with-2-records.csv'
+    AttributeMapping = '.\AttributeMapping.psd1'
+    ServicePrincipalId = 'c8fb7659-9f63-4034-b923-86fe0e5e966e'
+    TenantId = 'adad4a7c-ddab-4782-9aeb-75be5f5523fa'
     ClientSecretCredential = $ClientSecretCredential
     
 }
